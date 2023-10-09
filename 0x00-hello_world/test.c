@@ -1,6 +1,10 @@
 #include <stdio.h> 
 int main (void){
-	int m1= 30,m2= 20;
-	printf("%d %d",m1,m2 );
+	int y = 1;
+	int x = 2;
+	if y (2)
+	       printf("kamel is cool");
+ 	else 	("nob");
 	return 0 ;
+
 }
