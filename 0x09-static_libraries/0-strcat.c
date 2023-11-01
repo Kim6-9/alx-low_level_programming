@@ -22,7 +22,7 @@
  *  Return: void
 
 
- */
+*/
 
 
 char *_strcat(char *dest, char *src)
@@ -31,58 +31,58 @@ char *_strcat(char *dest, char *src)
 {
 
 
-        	int a;
+	int a;
 
 
-        	int b;
+	int b;
 
 
- 
 
 
-        	a = 0;
+
+	a = 0;
 
 
-        	while (dest[a] != '\0')
+	while (dest[a] != '\0')
 
 
-        	{
+	{
 
 
-                    	a++;
+		a++;
 
 
-        	}
+	}
 
 
-        	b = 0;
+	b = 0;
 
 
-        	while (src[b] != '\0')
+	while (src[b] != '\0')
 
 
-        	{
+	{
 
 
-                    	dest[a] = src[b];
+		dest[a] = src[b];
 
 
-                    	a++;
+		a++;
 
 
-                    	b++;
+		b++;
 
 
-        	}
+	}
 
 
- 
 
 
-        	dest[a] = '\0';
+
+	dest[a] = '\0';
 
 
-        	return (dest);
+	return (dest);
 
 
 }

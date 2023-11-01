@@ -27,7 +27,7 @@
  * Return: dest
 
 
- */
+*/
 
 
 char *_strncat(char *dest, char *src, int n)
@@ -36,55 +36,55 @@ char *_strncat(char *dest, char *src, int n)
 {
 
 
-        	int a;
+	int a;
 
 
-        	int b;
+	int b;
 
 
- 
 
 
-        	a = 0;
+
+	a = 0;
 
 
-        	while (dest[a] != '\0')
+	while (dest[a] != '\0')
 
 
-        	{
+	{
 
 
-                    	a++;
+		a++;
 
 
-        	}
+	}
 
 
-        	b = 0;
+	b = 0;
 
 
-        	while (b < n && src[b] != '\0')
+	while (b < n && src[b] != '\0')
 
 
-        	{
+	{
 
 
-        	dest[a] = src[b];
+		dest[a] = src[b];
 
 
-        	a++;
+		a++;
 
 
-        	b++;
+		b++;
 
 
-        	}
+	}
 
 
-        	dest[a] = '\0';
+	dest[a] = '\0';
 
 
-        	return (dest);
+	return (dest);
 
 
 }
